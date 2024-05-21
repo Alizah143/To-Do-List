@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: pink;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 6rem;
+}
+.add {
+    background-color:pink;
+    width: 100%;
+    margin-top: -5rem;
+    padding: 12px;
+}
+.add input{
+    padding: 12px;
+    padding-left: 47px;
+    padding-right: 187px;
+    font-size: 14px;
+    outline: none;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 15px;
+}
+.add button{
+    background-color: hotpink;
+    border: none;
+    padding: 12px;
+    padding-left:24px ;
+    font-weight: 600;
+    padding-right: 24px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+}
+.add button:hover{
+    background-color: darksalmon
+}
+ul li {
+    list-style-type: none;
+    padding: 12px;
+}
+ul li {
+    padding: 8px;
+    text-decoration: none;
+    position: relative;
+    margin-top: 1rem;
+    color: black;
+    cursor: pointer;
+}
+ul li::before
+    {
+    content: ' ';
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    margin-left: -3rem;
+    background-image: url(unchecked-10-removebg-preview.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+ul li.complete{
+    color: black;
+    text-decoration: line-through;
+}
+ul li.complete::before{
+    background-image: url(png-transparent-computer-icons-check-mark-checkbox-warranty-purple-logo-magenta-thumbnail-removebg-preview.png);
+}
+ul li span{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 600;
+    padding: 9px;
+    margin-left: 9rem;
+}
+ul li span:hover{
+    background-color: 	#F89880;
+}
